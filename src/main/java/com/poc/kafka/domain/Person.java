@@ -1,5 +1,6 @@
 package com.poc.kafka.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import javax.validation.constraints.Size;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class Person {
 
     @Id
