@@ -32,3 +32,8 @@ $ docker-compose up
 $ mvn clean install.
 ```
 - Execute the KafkaExampleApplication in project.
+
+### API Documentation
+- After run the application:
+
+	> http://localhost:8082/swagger-ui.html
