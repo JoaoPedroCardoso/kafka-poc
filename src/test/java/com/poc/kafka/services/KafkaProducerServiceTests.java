@@ -17,4 +17,5 @@ public class KafkaProducerServiceTests extends KafkaApplicationTests {
     public void sendMessage() {
         assertDoesNotThrow(() -> kafkaProducerService.send("data of test"));
     }
+
 }
