@@ -1,7 +1,7 @@
 package com.poc.kafka.controller;
 
 import com.poc.kafka.domain.Person;
-import com.poc.kafka.service.PersonService;
+import com.poc.kafka.services.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

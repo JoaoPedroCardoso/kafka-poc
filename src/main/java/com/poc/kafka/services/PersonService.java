@@ -1,4 +1,4 @@
-package com.poc.kafka.service;
+package com.poc.kafka.services;
 
 import com.poc.kafka.domain.Person;
 import com.poc.kafka.repository.PersonRepository;

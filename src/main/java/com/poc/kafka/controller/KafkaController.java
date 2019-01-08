@@ -2,7 +2,7 @@ package com.poc.kafka.controller;
 
 import com.poc.kafka.controller.response.MessageResponse;
 import com.poc.kafka.domain.MessageStorage;
-import com.poc.kafka.service.KafkaProducerService;
+import com.poc.kafka.services.KafkaProducerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
