@@ -13,7 +13,7 @@ public class KafkaProducerServiceTests extends KafkaApplicationTests {
     private KafkaProducerService kafkaProducerService;
 
     @Test
-    @DisplayName("should send a message to topic")
+    @DisplayName("should send a message to topic without exception")
     public void sendMessage() {
         assertDoesNotThrow(() -> kafkaProducerService.send("data of test"));
     }

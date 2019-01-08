@@ -45,7 +45,7 @@ public class PersonServiceTests extends KafkaApplicationTests {
     }
 
     @Test
-    @DisplayName("should save a new person")
+    @DisplayName("should save a new person with success")
     public void saveNewPerson() {
         Person newPerson = new Person(null,"NewPerson");
 
