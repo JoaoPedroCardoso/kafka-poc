@@ -1,3 +1,5 @@
+# @name@
+
 ## Welcome to Kafka poc!
 
 This is a simple example of how to use kafka with Spring/Java features.
