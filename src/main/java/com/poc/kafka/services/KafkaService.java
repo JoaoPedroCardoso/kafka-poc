@@ -18,13 +18,17 @@ public class KafkaService extends Thread {
     @Value("${kafka.person.bootstrap-topic}")
     private String topic;
 
+    @Override
+    public void run() {
+        kafkaTemplate.send(topic, message);
+    }
+
     public void setMessage(String message) {
         this.message = message;
     }
 
-    @Override
-    public void run() {
-        kafkaTemplate.send(topic, message);
+    public String getMessage() {
+        return this.message;
     }
 
 }
