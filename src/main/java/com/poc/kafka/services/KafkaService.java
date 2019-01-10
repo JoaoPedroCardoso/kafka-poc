@@ -18,7 +18,7 @@ public class KafkaService extends Thread {
     @Value("${kafka.person.bootstrap-topic}")
     private String topic;
 
-    public void getMessage(String message) {
+    public void setMessage(String message) {
         this.message = message;
     }
 

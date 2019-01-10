@@ -34,7 +34,7 @@ public class PersonService {
 
     public Person save(Person person) throws InterruptedException {
         Person newPerson = personRepository.save(person);
-        kafkaService.getMessage(newPerson.toString());
+        kafkaService.setMessage(newPerson.toString());
         kafkaService.run();
         kafkaService.join();
         log.info("Published data '" + newPerson + "' on topic " + topic);
